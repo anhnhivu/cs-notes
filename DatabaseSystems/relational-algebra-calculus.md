@@ -54,6 +54,9 @@ OUTER UNION: take union of tuples that have some common attributes, but are not 
 
 AGGREGATE FUNCTIONS: SUM, AVERAGE, MAXIMUM, MINIMUM, COUNT
 
+`<grouping attributes> F <function list> (R)` 
+`Dno F count ssn, average salary (EMPLOYEE)`
+
 # Relational Calculus
 - non procedural or declarative query language
 - tuple DRC vs domain DRC
