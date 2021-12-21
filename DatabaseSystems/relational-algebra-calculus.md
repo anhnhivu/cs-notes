@@ -25,7 +25,8 @@ JOIN
 - NATURAL JOIN: denote by `*`, same as EQUIJOIN but both relations have the same attribute names
 
 DIVISION: retrieve the names of employees who work on **all** the projects that 'John Smith' works on
-`SSNS(SSN) <- SSN_PNOS / SMITH_PNOS)
+
+`SSNS(SSN) <- SSN_PNOS / SMITH_PNOS)`
 
 ### Set theory 
 - union compatible: same degree `n` and `dom(A_i) = dom(B_i)`
@@ -65,12 +66,14 @@ AGGREGATE FUNCTIONS: SUM, AVERAGE, MAXIMUM, MINIMUM, COUNT
 - domain dependent
 
 ### TUPLE 
-- `{ t | COND(t) }`
+- `{ t | COND(t) }` or `{ t | P(t) }`
 - safe expression: finite result
 
 ### DOMAIN
+- `{ a_1, a_2, a_3, ..., a_n | P(a_1, a_2, a_3, ..., a_n) }`
 - query-by-example
-- [TRC/DRC](https://www.geeksforgeeks.org/difference-between-tuple-relational-calculus-trc-and-domain-relational-calculus-drc/)
+
+Reference: [TRC/DRC](https://www.geeksforgeeks.org/difference-between-tuple-relational-calculus-trc-and-domain-relational-calculus-drc/)
 
 
 
